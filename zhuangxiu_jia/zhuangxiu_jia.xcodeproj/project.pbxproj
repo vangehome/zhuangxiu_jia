@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40F9A0EC2F67C6358AD6FA93 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32A8B53205196111839404B /* libPods.a */; };
+		A1A0D6EE1CB55BAE005BD1D1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A1A0D6ED1CB55BAE005BD1D1 /* README.md */; };
 		A1C685C71CB553C000044A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C685C51CB553C000044A37 /* Main.storyboard */; };
 		A1C685CC1CB553C000044A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C685CB1CB553C000044A37 /* Assets.xcassets */; };
 		A1C685E01CB5564400044A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C685DB1CB5564400044A37 /* AppDelegate.m */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		8FC203501A839841A7B04DF0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		91995E5408F063744D2C1149 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A1A0D6ED1CB55BAE005BD1D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		A1C685B91CB553C000044A37 /* zhuangxiu_jia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhuangxiu_jia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C685BD1CB553C000044A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1C685C61CB553C000044A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		A1C685D91CB5564400044A37 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A1A0D6ED1CB55BAE005BD1D1 /* README.md */,
 				A1C685DA1CB5564400044A37 /* AppDelegate.h */,
 				A1C685DB1CB5564400044A37 /* AppDelegate.m */,
 				A1C685DC1CB5564400044A37 /* Info.plist */,
@@ -256,6 +259,7 @@
 			files = (
 				A1C685E21CB5564400044A37 /* main.m in Sources */,
 				A1C685E31CB5564400044A37 /* zhuangxiu_jia.xcdatamodeld in Sources */,
+				A1A0D6EE1CB55BAE005BD1D1 /* README.md in Sources */,
 				A1C685E01CB5564400044A37 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
